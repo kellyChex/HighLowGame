@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Intro Webpage!</title>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0; target-densitydpi=device-dpi" />
+<link rel="stylesheet" type="text/css" href="numbers.css"/>
+<script src="jquery-2.1.4.js"></script>
+<script type="text/javascript" src="numbers.js"></script>
+</head>
+<body>
+<h2></h2>
+<button id="begin" value="start">Click here to start</button>
+<p>Guess a number by click on the number box. You only have 7 tries! May the guessing force be with you.</p>
+<div class="answer"></div>
+</body>
+</html>

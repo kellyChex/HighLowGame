@@ -1,0 +1,29 @@
+html {
+  background-color:
+}
+
+div {
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  background-color: #456990;
+  display: inline-flex;
+  margin-left: 5px;
+  text-align: center;
+  color: #E4FDE1;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.answer {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+  color: #028090;
+  position: relative;
+  width: 100%;
+  font-size: 2em;
+}
