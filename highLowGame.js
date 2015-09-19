@@ -12,10 +12,10 @@ $(document).ready(function(){
         $(this).css("visibility", "hidden");
         $(".answer").empty();
         numberOfAttempts++;
-
+// Check users answer
         if (computer === currentAttempt) {
           $(".answer").append("You got it!");
-          numberOfAttempts = 7;
+
         }
         else if (computer < currentAttempt) {
           $(".answer").append("Too High!");
