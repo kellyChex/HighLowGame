@@ -15,7 +15,10 @@ $(document).ready(function(){
 // Check users answer
         if (computer === currentAttempt) {
           $(".answer").append("You got it!");
-
+          $("div").off("click");
+          $("button#begin").click(function(){
+            location.reload();
+          });
         }
         else if (computer < currentAttempt) {
           $(".answer").append("Too High!");
@@ -27,6 +30,9 @@ $(document).ready(function(){
         if (numberOfAttempts === 7) {
           alert("You've used up all your chances! The number was: " + computer);
           $("div").off("click");
+          $("button#begin").click(function(){
+            location.reload();
+          });
         }
       });
     }
